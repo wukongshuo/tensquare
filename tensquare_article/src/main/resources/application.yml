@@ -1,0 +1,20 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: tensquare-article
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.10.49.66:3306/tensquare_article?characterEncoding=utf-8
+    username: root
+    password: 123456
+  data:
+    jpa:
+      database: MySQL
+      show-sql: true
+      generate-ddl: true
+    redis:
+      host: 10.10.49.66
+    mongodb:
+      host: 10.10.49.66
+      database: recruitdb
