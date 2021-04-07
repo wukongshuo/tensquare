@@ -1,0 +1,11 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: tensquare-spit
+  data:
+    mongodb:
+      host: 10.10.49.66
+      database: spitdb
+  redis:
+    host: 10.10.49.66
